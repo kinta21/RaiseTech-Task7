@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
+import java.util.Map;
 
 @RestController
 public class CatController {
@@ -15,13 +16,24 @@ public class CatController {
     }
 
     @PostMapping("/cats")
-    public ResponseEntity<String> create(@RequestBody CreateForm form){
+    public ResponseEntity<Map<String, String>>create(@RequestBody CreateForm form){
         URI url = UriComponentsBuilder.fromUriString("http://localhost:8080")
                 .path("/cats/id")
                 .build()
                 .toUri();
-        return ResponseEntity.created(url).body("name successfully created");
+        return ResponseEntity.created(url).body(Map.of("message","name successhully created"));
+    }
+
+    @PatchMapping("/cats/{id}")
+    public ResponseEntity<Map<String, String>> update(@PathVariable("id") int id, @RequestBody UpdateForm form) {
+        return ResponseEntity.ok(Map.of("message", "name successfully updated"));
+    }
+
+    @DeleteMapping("/cats/{id}")
+    public ResponseEntity<Map<String, String>> delete(@PathVariable("id") int id) {
+        return ResponseEntity.ok(Map.of("message", "name successfully deleted"));
     }
 }
+
 
 

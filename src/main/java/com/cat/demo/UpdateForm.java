@@ -1,10 +1,13 @@
 package com.cat.demo;
 
-public class CreateForm {
+public class UpdateForm {
+
     private String name;
 
-    public CreateForm() {
+    public UpdateForm(String name) {
+        this.name = name;
     }
+
     public String getName() {
         return name;
     }
