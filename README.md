@@ -5,15 +5,16 @@ HTTPメソッドである、GET、POST、PATCH、DELETEをリクエストして�
 ## 動作確認
 
 ### **＜GET＞**
-![スクリーンショット 2023-08-27 16 14 36](https://github.com/kinta21/RaiseTech-Task7/assets/141032732/26faa956-d446-4d2e-ae01-238d771b21cd)
-
+![スクリーンショット 2023-08-27 18 38 59](https://github.com/kinta21/RaiseTech-Task7/assets/141032732/8258a7f8-5109-43cd-807a-194fced34665)
 
 ### **＜POST＞**
-![スクリーンショット 2023-08-27 16 15 44](https://github.com/kinta21/RaiseTech-Task7/assets/141032732/0ab9f360-a45b-43b4-b0e1-e9142a331ef2)
+![スクリーンショット 2023-08-27 18 39 54](https://github.com/kinta21/RaiseTech-Task7/assets/141032732/45052068-3a3f-4431-a591-1a6b9976900a)
 
 
 ### **＜PATCH＞**
+![スクリーンショット 2023-08-28 17 51 26](https://github.com/kinta21/RaiseTech-Task7/assets/141032732/11847a07-43ed-4765-a644-7762eb14a831)
 
   
 ### **＜DELET＞**
-![スクリーンショット 2023-08-27 11 19 38](https://github.com/kinta21/RaiseTech-Task7/assets/141032732/f7a65ba2-a70f-42c8-9a55-4de50c212d4f)
+![スクリーンショット 2023-08-27 18 40 30](https://github.com/kinta21/RaiseTech-Task7/assets/141032732/732ffdf3-eadc-4fef-b883-beb96e06d6fc)
+
