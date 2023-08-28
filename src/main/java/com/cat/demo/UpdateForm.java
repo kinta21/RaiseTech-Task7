@@ -4,8 +4,7 @@ public class UpdateForm {
 
     private String name;
 
-    public UpdateForm(String name) {
-        this.name = name;
+    public UpdateForm() {
     }
 
     public String getName() {
@@ -16,3 +15,4 @@ public class UpdateForm {
         this.name = name;
     }
 }
+
